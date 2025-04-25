@@ -1,0 +1,88 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.video-lluvia {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .video-lluvia img {
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    
+  }
+  h1{
+    font-size: 4rem;
+  }
+.rojo{
+    background-color: red;
+}
+.amarillo{
+    background-color: yellow;
+}
+.verde{
+    background-color: green;
+}
+.purpleInvisible{
+    background-color: rgb(146, 0, 250);
+    display: none;
+}
+.purpleVisible{
+    background-color: rgb(146, 0, 250);
+    display: inline;
+}
+
+.contenedorSemaforo {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.semaforo{
+    background-color: black;
+    padding: 2vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    max-width: 180px;
+    min-width: 120px;
+}
+.cable{
+background-color: black;
+width: 15px;
+height: 160px;
+
+}
+
+.circle{
+border-radius: 50%;
+width: 100px;
+height: 100px;
+cursor: pointer;
+}
+
+.active1 {
+    opacity:1;
+    box-shadow: 0 0 30px 10px rgba(255, 4, 4, 0.6);
+  }
+.active2 {
+    opacity:1;
+    box-shadow: 0 0 30px 10px rgba(255, 255, 1, 0.6);
+  }
+.active3 {
+    opacity:1;
+    box-shadow: 0 0 30px 10px rgba(20, 240, 72, 0.546);
+  }
+.active4 {
+    opacity:1;
+    box-shadow: 0 0 30px 10px rgba(117, 17, 247, 0.546);
+  }
