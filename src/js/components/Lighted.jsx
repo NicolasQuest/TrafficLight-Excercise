@@ -113,6 +113,15 @@ let intervalo = null;
     </div>
 		</div>
   );
+	<button
+        onClick={(e) => {
+          alert("Website created by NicolasQuest for educational purpose");
+        }}
+        className="btn btn-success my-2 mx-1"
+      >
+        by NicolasQuest
+      </button>
+
 };
 
 export default Lighted;
